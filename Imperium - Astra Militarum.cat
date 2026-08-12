@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718b-d1a3-7bef-4a1a" name="Imperium - Astra Militarum" revision="275" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="c85a-4f21-9b73-e610" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="718b-d1a3-7bef-4a1a" name="Imperium - Astra Militarum" revision="276" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="c85a-4f21-9b73-e610" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="5d51-9773-2f0e-e82a" name="Aradia Madellan" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -2129,6 +2129,7 @@
         <categoryLink id="81e7-a718-5ba7-4f5b" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Hippogriff AFV" hidden="false" id="114a-d7f6-238f-a312" type="selectionEntry" targetId="6219-24b8-8c7f-63a3"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="adec-21fd-5ea9-1be3" name="Bullgryns" publicationId="53e9d88f--pubN88319" page="44" hidden="false" collective="false" import="true" type="unit">
