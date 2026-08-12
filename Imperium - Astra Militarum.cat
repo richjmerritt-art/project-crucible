@@ -2129,7 +2129,21 @@
         <categoryLink id="81e7-a718-5ba7-4f5b" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hippogriff AFV" hidden="false" id="114a-d7f6-238f-a312" type="selectionEntry" targetId="6219-24b8-8c7f-63a3"/>
+    <entryLink import="true" name="Hippogriff AFV" hidden="false" id="114a-d7f6-238f-a312" type="selectionEntry" targetId="6219-24b8-8c7f-63a3">
+      <categoryLinks>
+        <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="eff9-7274-6f7d-d8f9" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kasrkin" hidden="false" id="2110-a7d9-815f-33a1" type="selectionEntry" targetId="7d83-fe5e-6931-0764">
+      <categoryLinks>
+        <categoryLink targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="df10-1799-3897-0e80" primary="false" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Centaur RSV" hidden="false" id="de62-1dcc-9e44-7b1d" type="selectionEntry" targetId="3a6d-d761-6531-3fcd">
+      <categoryLinks>
+        <categoryLink targetId="1b66-3f5f-6705-079a" id="15b4-4f6b-a581-0a21" primary="false" name="Dedicated Transport"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="adec-21fd-5ea9-1be3" name="Bullgryns" publicationId="53e9d88f--pubN88319" page="44" hidden="false" collective="false" import="true" type="unit">
