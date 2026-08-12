@@ -11685,6 +11685,280 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7d83-fe5e-6931-0764" name="Kasrkin" publicationId="53e9d88f--pubN88319" page="38" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4145-1c46-737d-3541" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2fc7-3cc5-67ff-57c7" name="Kasrkin Sergeant" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="693a-7f4c-c934-06b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9d-5509-944a-1539" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0f96-d91e-598d-1688" name="Kasrkin Sergeant" publicationId="53e9d88f--pubN88319" page="38" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="cfd0-a50c-780b-b872" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="84ba-dbe8-2d4a-d471">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de9-1eb3-2a87-bdce" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dac-6e16-6ea4-b6c3" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="711d-4a32-6ea3-7b2b" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3323-766e-1b43-879c" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="320b-c822-98e7-46c1" name="Astra Militarum Ranged Weapons" hidden="false" collective="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4890-6309-6512-2f3b" name="Chainsword" hidden="false" collective="false" import="true" defaultSelectionEntryId="200b-d949-5d25-ec00">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cde-c6cc-15ff-7101" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dba-43c6-95fc-30c9" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c292-c8a3-6c2b-0fc6" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b621-06df-4617-bde8" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="2da2-4c93-1802-8494" name="Astra Militarum Melee Weapons" hidden="false" collective="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Hot-shot Laspistol" hidden="false" id="59e1-42a4-004a-2ff9" type="selectionEntry" targetId="be4e-87d9-3bb2-4ecd">
+              <costs>
+                <cost name="pts" typeId="points" value="2"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Plasma pistol" hidden="false" id="bca9-3cdb-9c0a-28d5" type="selectionEntry" targetId="83be-1ba9-c326-4760"/>
+            <entryLink import="true" name="Power sword" hidden="false" id="39b3-7cbd-1bef-bfc6" type="selectionEntry" targetId="bc9e-551d-9afb-78d5"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ea17-ca49-be89-16ed" name="Kasrkin" hidden="false" collective="false" import="true" defaultSelectionEntryId="01ce-0869-4e34-5129">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ec7-67c2-5303-1bcf" type="min"/>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d792-42af-2d22-7c93" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f176-7499-2191-edb1" name="Kasrkin w/ Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c5d-e972-6f70-a84c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8af2-697f-c072-70dc" name="Vox-caster" hidden="false" collective="false" import="true" targetId="5563-fe60-717b-e5b6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4039-82c6-2e55-4476" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2af-9a0d-4947-1de8" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Hot-Shot Lasgun" hidden="false" id="e487-b2af-ecd3-0d82" type="selectionEntry" targetId="5188-4b26-73ac-1160"/>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="7"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="d994-0123-6b5f-1ace">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="9531-641c-11f5-31fd" name="Kasrkin w/ Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18d2-73a1-d3dd-525a" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="aca0-5edc-bc86-874c" name="Astra Militarum Special Weapons BS3" hidden="false" collective="false" import="true" targetId="b146-ea4c-c9d2-b16a" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="7"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="63c5-80b1-35e2-4c19">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="b403-6a1d-66d8-cea3" name="Kasrkin Sniper" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cd2-6e4b-81ae-127f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="9"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="3de3-9f1d-45b5-2931">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Hot-shot Marksman Rifle" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0eaa-7f69-a012-f429">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">HEAVY 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Ignore Look Out Sir! Unmodified wound rolls of 6 deal 1 mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="0ed9-1ef4-5e26-d409" name="Kasrkin w/ Hot-shot Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6056-cad6-36ed-5aeb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1283-369a-a789-3ba9" name="Hot-Shot Lasgun" hidden="false" collective="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f444-25b7-4cec-7d77" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afb-9492-347d-c482" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="7"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="1ac8-5e63-0b95-abfe">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="8e29-f059-7393-59f7" name="Kasrkin Demo Expert" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7696-7c15-8917-33ec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="7"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="533a-375b-d294-ca7f">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Hot-shot Laspistol" hidden="false" id="7009-256b-60c4-63e6" type="selectionEntry" targetId="be4e-87d9-3bb2-4ecd"/>
+                <entryLink import="true" name="Melta bombs" hidden="false" id="3ccf-ea09-9be7-7e37" type="selectionEntry" targetId="8ed2-3e2c-4d52-af79"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Kasrkin" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="4dc2-e21f-c77c-3849">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e595-91dd-6f19-1143" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="04e0-6adb-ffca-c931" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Warrior Elite:" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="097a-3d2e-bd5d-ef95">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit can be affected by up to two different Orders in the same turn. It cannot be affected by the same Order more than once.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink id="347c-c2dd-b902-3ba5" name="Imperium - Astra Militarum - Library" targetId="0fb1-d333-b98b-e7bb" type="catalogue" importRootEntries="true"/>

@@ -8851,14 +8851,6 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1afb-ccfa-8116-81af" name="Sniper rifle" hidden="false" collective="false" import="true" targetId="ba62-f2c3-d7bb-4f5d" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="2"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bb-f482-1876-6e0a" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="2baa-ceea-fe76-86b0" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="11"/>
