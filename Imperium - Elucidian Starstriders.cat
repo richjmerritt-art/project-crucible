@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4a72-ebd3-650b-05ba" name="Imperium - Elucidian Starstriders" revision="5" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="c85a-4f21-9b73-e610" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b619-ccba-8c99-4699" name="Imperium - Elucidian Starstriders" revision="11" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@GenWilhelm" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b619-ccba-pubN66040" name="Codex: Elucidian Starstriders"/>
   </publications>
@@ -182,8 +182,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="45.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -287,8 +287,8 @@
         <entryLink id="a765-bbe7-954f-e8e1" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -366,8 +366,8 @@
         <entryLink id="9371-e341-e32b-0613" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="22.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -396,7 +396,7 @@
         </profile>
         <profile id="1028-a692-e050-111d" name="Healing Serum" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each Movemnt phase, this model can attempt to heal a single friendly ELUCIDIAN STARSTRIDERS INFANTRY unit within 3&quot;. If it does so, roll a D6; on a 4+ one model from the unit regains 1 lost wound. If the unit is NITSCH&apos;S SQUAD, one model slain earlier in the battle is returned to the unit instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each Movement phase, this model can attempt to heal a single friendly ELUCIDIAN STARSTRIDERS INFANTRY unit within 3&quot;. If it does so, roll a D6; on a 4+ one model from the unit regains 1 lost wound. If the unit is NITSCH&apos;S SQUAD, one model slain earlier in the battle is returned to the unit instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -453,7 +453,7 @@
         <entryLink id="0fd9-fe38-c52c-4fff" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="17.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -545,9 +545,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e774-dbaf-609a-7ea1" name="Voidsman" hidden="false" collective="false" import="true" type="model">
@@ -591,9 +591,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3123-e13c-86c6-9129" name="Voidsman" hidden="false" collective="false" import="true" type="model">
@@ -656,9 +656,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="707b-c499-fdc5-1da4" name="Aximillion" hidden="false" collective="false" import="true" type="model">
@@ -682,15 +682,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -723,7 +723,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon that targets a unit within 1&quot; of any Obstacles or Area Terrain features, add 1 to the Strength and Damage characteristics of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -761,7 +761,6 @@
       </constraints>
       <entryLinks>
         <entryLink id="d16a-ce33-8648-134d" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="31e4-ecfe-323c-c883" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -777,4 +776,8 @@
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="ff76-72a1-b6ba-f98d" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7c10-c8fc-2c4d-feb4" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>
