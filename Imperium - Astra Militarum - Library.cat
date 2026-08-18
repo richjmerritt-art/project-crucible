@@ -16203,13 +16203,13 @@
       <profiles>
         <profile id="58ad-50b5-23db-cfe4" name="Centaur RSV" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
@@ -16299,13 +16299,13 @@
       <profiles>
         <profile name="Hippogriff AFV" typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="af50-01ed-eca9-302a">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*`</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
-            <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
@@ -16330,8 +16330,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Primary Weapon" id="d53b-7bb9-431f-be12" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Lascannon" hidden="false" id="39f8-e94a-b60e-e994" type="selectionEntry" targetId="a908-4664-11cd-f8b2"/>
-            <entryLink import="true" name="Meltagun" hidden="false" id="b139-cda5-00d5-b769" type="selectionEntry" targetId="efc8-c51d-5b02-a3a2"/>
+            <entryLink import="true" name="Lascannon" hidden="false" id="39f8-e94a-b60e-e994" type="selectionEntry" targetId="a908-4664-11cd-f8b2">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Vigilator cannon" hidden="false" id="bc30-a552-942e-de3d">
@@ -16347,6 +16350,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chiron gatling cannon" hidden="false" id="ee50-4041-ce8c-a04b">
               <profiles>
@@ -16361,6 +16369,34 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melta cannon" hidden="false" id="0939-f911-e0e7-ede1">
+              <profiles>
+                <profile name="Melta Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="dda4-fd09-5259-a5ec">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half rang of this weapon, roll two dice when inflicting damage and discard the lowest result.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e05a-7e24-7c97-f7e6" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5801-d01d-6331-9016" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -16370,8 +16406,16 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Secondary Weapon" id="e643-7352-8555-1aae" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Meltagun" hidden="false" id="c325-2952-4f66-4ba1" type="selectionEntry" targetId="efc8-c51d-5b02-a3a2"/>
-            <entryLink import="true" name="Heavy stubber" hidden="false" id="889b-97a1-c7bc-6e78" type="selectionEntry" targetId="cfa3-5fcd-af10-5520"/>
+            <entryLink import="true" name="Meltagun" hidden="false" id="c325-2952-4f66-4ba1" type="selectionEntry" targetId="efc8-c51d-5b02-a3a2">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy stubber" hidden="false" id="889b-97a1-c7bc-6e78" type="selectionEntry" targetId="cfa3-5fcd-af10-5520">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6095-a4fe-9a07-8ffb" includeChildSelections="false"/>
@@ -16380,7 +16424,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="70"/>
+        <cost name="pts" typeId="points" value="60"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
@@ -16503,9 +16547,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
+            <cost name="pts" typeId="points" value="7"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16529,9 +16573,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
+                <cost name="pts" typeId="points" value="0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Kasrkin w/ Vox-caster" hidden="false" id="c1b9-81c4-2926-80b3" page="0" collective="false">
@@ -16553,16 +16597,16 @@
                 </entryLink>
               </entryLinks>
               <costs>
+                <cost name="pts" typeId="points" value="5"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Kasrkin w/ Special Weapon" hidden="false" id="b828-ae4e-e113-d000" page="0" collective="false">
               <costs>
+                <cost name="pts" typeId="points" value="7"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                <cost name="pts" typeId="points" value="0"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Special Weapons" id="ed6b-b204-5f7b-f6a4" hidden="false">
@@ -16630,8 +16674,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="50"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
+        <cost name="pts" typeId="points" value="70"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
     </selectionEntry>
@@ -16710,7 +16754,7 @@
                     <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
                     <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
                     <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16782,7 +16826,7 @@
                     <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
                     <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
                     <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17080,7 +17124,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="4967-0762-0fe7-5920" name="Additional Equipment" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="5e74-d0e8-5a44-c048" name="Heavy Bolters or Multi-meltas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="5e74-d0e8-5a44-c048" name="Sponsons" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e74-d0e8-5a44-c048-max" type="max"/>
               </constraints>
@@ -17115,7 +17159,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="pts" typeId="points" value="10"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                   </costs>
@@ -17150,14 +17194,14 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="pts" typeId="points" value="30"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="b975-17b7-50a0-38c1" name="Meltaguns or Heavy Stubbers" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b975-17b7-50a0-38c1" name="Hull Weapons" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b975-17b7-50a0-38c1-max" type="max"/>
               </constraints>
@@ -17192,7 +17236,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="pts" typeId="points" value="30"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                   </costs>
@@ -17227,7 +17271,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="pts" typeId="points" value="10"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                   </costs>
@@ -17323,6 +17367,9 @@
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="14"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Tank Ace" hidden="false" id="3c9b-683e-f0a3-89a2" type="selectionEntry" targetId="1f2e-f7b0-d8d9-1089"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="3254-78d3-eb64-d6a6" name="WT (113th Noctis Dragoons): Kill Zone Commander" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -17558,14 +17605,9 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a ranged weapon against this unit, subtract 1 from the hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="aba6-c6d4-8dc8-8877" name="Independent Operatives" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="7296-84d4-feb0-dec8" name="Vox Relay Beacon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit was affected by an Order in your previous Shooting phase and is not issued a different Order this turn, it remains affected by that Order until the end of this Shooting phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7296-84d4-feb0-dec8" name="Signal Flares" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, select one enemy unit that is visible to this unit and within 12&quot; of it. Until the end of that phase, that enemy unit does not receive the benefits of cover against ranged attacks made by friendly units.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase, this unit may deploy one Vox Relay Beacon within 3&quot;. While a friendly [REGIMENT] Infantry unit is with 6&quot; of the beacon, OFFICERS can issue orders to that unit as if the unit was within 6&quot; of the OFFICER. At the end of any phase, if an enemy unit is within 1&quot; of the token, remove it from the Battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17620,7 +17662,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="86e4-413e-02e4-21c1" name="9 Recon Troopers" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e55-da02-8732-1194">
+        <selectionEntryGroup id="86e4-413e-02e4-21c1" name="Recon Troopers" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e55-da02-8732-1194">
           <modifiers>
             <modifier type="decrement" field="eefe-4013-f8dd-edfe" value="1">
               <conditions>
@@ -17704,9 +17746,9 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="863c-344e-28bf-3f8b" name="Recon Trooper w/ Long-las" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="863c-344e-28bf-3f8b" name="Recon Marksman" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="5f32-35ce-1b6a-c45e" value="1">
+                <modifier type="set" field="5f32-35ce-1b6a-c45e" value="2">
                   <conditions>
                     <condition field="selections" scope="41c0-799c-6788-4100" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1166-bddd-856d-8d30" type="atLeast"/>
                   </conditions>
@@ -17733,8 +17775,7 @@
               <entryLinks>
                 <entryLink id="08d5-6941-21db-55fc" name="Long-las" hidden="false" collective="false" import="true" targetId="84f5-0f74-ca22-7bcb" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ce-0988-d822-ef2f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edee-8f50-08a9-dd99" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edee-8f50-08a9-dd99" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -17819,11 +17860,17 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d339-6440-cfea-e731" type="max"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
                     </entryLink>
                     <entryLink id="415f-a484-f796-5e11" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee1-b26f-dac6-58e4" type="max"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -17859,6 +17906,9 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de4-fde8-e113-e385" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de53-788b-d037-01ba" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="2745-0be7-61a9-e056" name="Laspistol" hidden="false" collective="false" import="true" targetId="9c74-d181-d2ec-0ba6" type="selectionEntry">
                   <constraints>
@@ -17877,7 +17927,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="65"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
@@ -17965,12 +18015,12 @@
                 <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
               </characteristics>
             </profile>
-            <profile name="Demolitions Engineer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="ba5c-4c29-94cd-9a22">
+            <profile name="Demolition Charge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="ba5c-4c29-94cd-9a22">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a VEHICLE or BUILDING, improve its AP characteristic by 1.</characteristic>
               </characteristics>
@@ -18000,20 +18050,20 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="4f27-4469-2f70-f98b" name="Combat Engineers" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff4c-e33b-a718-aa42">
           <constraints>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d00f-860b-81ae-e92b" type="min"/>
-            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50a4-ef99-374b-e943" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d00f-860b-81ae-e92b" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ff4c-e33b-a718-aa42" name="Combat Engineer" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d22e-51ac-fa54-6283" type="max"/>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d22e-51ac-fa54-6283" type="max"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="false" id="207d-30fa-1efe-1b21" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
                 <profile id="08c0-e008-6868-f005" name="Engineer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                     <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                     <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                     <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
@@ -18052,7 +18102,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9449-42f2-2c91-6c41" name="Field Commander" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9449-42f2-2c91-6c41" name="Field Marshal" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="bdc7-cb5c-093d-b1c7" name="Field Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <modifiers>
@@ -18141,6 +18191,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3a-7b86-162a-14c3" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
             </entryLink>
             <entryLink id="5622-82fa-f8bf-8684" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
               <modifiers>
@@ -18149,6 +18202,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2664-d65e-488b-6d2d" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
             </entryLink>
             <entryLink id="e2b9-b4ab-6f28-c505" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
               <constraints>
@@ -18162,6 +18218,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d987-636b-295e-29d9" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
             </entryLink>
             <entryLink id="c232-6cbd-0c6d-a533" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
@@ -18210,7 +18269,6 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="7100-5628-db29-a0c6" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a87-f874-fda4-f715" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6a3-23dd-f3d1-136c" type="max"/>
           </constraints>
           <entryLinks>
@@ -18221,6 +18279,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="124a-4194-6af5-c185" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -18877,7 +18938,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e897-06c4-9779-9820" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="10"/>
           </costs>
         </entryLink>
         <entryLink id="fff0-c546-6a8a-21ef" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
@@ -18892,6 +18953,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c726-4e1c-2615-0a2c" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
