@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dab7-e076-dd5e-d8aa" name="Imperium - FW Adeptus Astartes" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f9cb-68df-06bc-4634" name="Imperium - FW Adeptus Astartes" revision="86" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dab7-e076-pubN133616" name="Codex: Space Wolves"/>
     <publication id="dab7-e076-pubN151451" name="Astraeus Super-heavy Tank PDF"/>
@@ -6419,7 +6419,7 @@
       <modifiers>
         <modifier type="add" field="category" value="ea77-8550-8b7d-7a29">
           <conditions>
-            <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+            <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8bb8-5544-2ee4-481a" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -9419,13 +9419,13 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="846d-3c14-21fc-369f" type="instanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc4e-28ff-05f8-4e92" type="instanceOf"/>
               </conditions>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
-                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="846d-3c14-21fc-369f" type="notInstanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc4e-28ff-05f8-4e92" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -9470,7 +9470,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9503-9e14-1988-91a4" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ee-67be-9aae-48b0" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9484,7 +9484,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b3d-59c0-a550-452a" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23a9-efe3-0ef8-48ca" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9505,7 +9505,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28e2-d179-3d66-a272" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8688-a1e5-e212-46ae" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9519,7 +9519,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28e2-d179-3d66-a272" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8688-a1e5-e212-46ae" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9533,7 +9533,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28e2-d179-3d66-a272" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8688-a1e5-e212-46ae" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9547,7 +9547,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b952-b4ff-5d2a-4113" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9561,7 +9561,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28e2-d179-3d66-a272" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8688-a1e5-e212-46ae" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9575,7 +9575,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c010-4da2-5a55-a3be" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78de-6931-b853-4d32" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9589,7 +9589,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b92-701a-704e-2d9f" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fff-004a-8b1c-4271" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9610,7 +9610,7 @@ This model also has a transport capacity of two &lt;CHAPTER&gt; VEHICLE models f
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28e2-d179-3d66-a272" type="notInstanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8688-a1e5-e212-46ae" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>

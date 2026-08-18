@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d24-b92f-c5d5-3bf0" name="Aeldari - Harlequins" revision="52" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR @FarseerV" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="415d-b467-7cdd-4ceb" name="Aeldari - Harlequins" revision="52" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR @FarseerV" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7d24-b92f-pubN65537" name="Codex: Harlequins"/>
   </publications>
@@ -2390,6 +2390,6 @@ model, or its base).</characteristic>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="397d-4f14-ba01-8a24" name="Aeldari - Ynnari" targetId="2f0e-dd91-7676-722d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="397d-4f14-ba01-8a24" name="Aeldari - Ynnari" targetId="8b35-7470-4571-4c13" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

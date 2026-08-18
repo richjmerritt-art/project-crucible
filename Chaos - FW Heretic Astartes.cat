@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="69" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="76fe-b089-30e7-4cc3" name="Chaos - FW Heretic Astartes" revision="69" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cfcb-6416-94fb-4744" name="Wound Track, Drop Pod">
       <characteristicTypes>
@@ -262,7 +262,7 @@
       <modifiers>
         <modifier type="set" field="name" value="Death Guard Greater Blight Drone">
           <conditions>
-            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="362b-5ad1-74f4-4158" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -333,7 +333,7 @@
               <modifiers>
                 <modifier type="set" field="837d-5e63-aeb7-1410" value="Plague Weapon">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="362b-5ad1-74f4-4158" type="instanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -363,7 +363,7 @@
               <modifierGroups>
                 <modifierGroup>
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="362b-5ad1-74f4-4158" type="instanceOf"/>
                   </conditions>
                   <modifiers>
                     <modifier type="set" field="837d-5e63-aeb7-1410" value="Plague Weapon"/>

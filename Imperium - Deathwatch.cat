@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="203b-f8dd-2a64-2676" name="Imperium - Adeptus Astartes - Deathwatch" revision="124" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Technoblazed" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c7e5-141c-c92f-46da" name="Imperium - Adeptus Astartes - Deathwatch" revision="124" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Technoblazed" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1973-efc9-3214-865a" name="Codex: Space Marines"/>
     <publication id="b8dc-efc0-c6b3-2c9f" name="Codex Supplement: Deathwatch" publisher="Codex Supplement: Deathwatch" publicationDate="2020-11-07" publisherUrl="https://www.games-workshop.com/en-GB/Codex-Supplement-Deathwatch-EN-2020"/>
@@ -7836,9 +7836,9 @@ While a PROTEUS KILL TEAM unit only contains Veteran Bikers, it has the BIKER ke
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="8d7c-57a0-9e6d-9954" name="Imperium - FW Adeptus Astartes" targetId="dab7-e076-dd5e-d8aa" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="6e02-9166-78b7-8345" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="24b5-5f59-7171-3a08" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="7cf7-e8e4-65f2-6703" name="Imperium - Space Marines" targetId="846d-3c14-21fc-369f" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="8d7c-57a0-9e6d-9954" name="Imperium - FW Adeptus Astartes" targetId="f9cb-68df-06bc-4634" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="6e02-9166-78b7-8345" name="Imperium - Inquisition" targetId="68fb-4b42-d3eb-451b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="24b5-5f59-7171-3a08" name="Imperium - Officio Assassinorum" targetId="1af5-c5dc-455e-4db7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7cf7-e8e4-65f2-6703" name="Imperium - Space Marines" targetId="dc4e-28ff-05f8-4e92" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>

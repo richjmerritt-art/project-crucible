@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c553-15f3-3890-be39" name="Chaos - Thousand Sons" revision="91" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e34-97a2-a34b-40ed" name="Chaos - Thousand Sons" revision="91" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="d059-e800-687c-6148" name="Boon of Tzeentch - D6 Roll">
       <characteristicTypes>
@@ -10379,6 +10379,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="c1c2-d910-ec01-dca6" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="c1c2-d910-ec01-dca6" name="Chaos - FW Heretic Astartes" targetId="76fe-b089-30e7-4cc3" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

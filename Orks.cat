@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="11b5-77b9-31bf-7b74" name="Orks" revision="112" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Tag8833" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a756-9b70-a7ba-4ba5" name="Orks" revision="112" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Tag8833" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks" />
   </publications>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="122" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="362b-5ad1-74f4-4158" name="Chaos - Death Guard" revision="122" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="Index: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN108736" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -13214,6 +13214,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="76fe-b089-30e7-4cc3" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

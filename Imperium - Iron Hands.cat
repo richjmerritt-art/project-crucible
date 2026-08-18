@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5b3d-59c0-a550-452a" name="Imperium - Adeptus Astartes - Iron Hands" revision="36" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="23a9-efe3-0ef8-48ca" name="Imperium - Adeptus Astartes - Iron Hands" revision="36" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e1a1-c276-086c-8bf2" name="Iron Father Feirros" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -1895,8 +1895,8 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="788b-363f-c21d-2599" name="Imperium - Space Marines" targetId="846d-3c14-21fc-369f" type="catalogue" importRootEntries="false"/>
-    <catalogueLink id="4063-bd65-e680-46ac" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="1146-9543-c4b4-f832" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="788b-363f-c21d-2599" name="Imperium - Space Marines" targetId="dc4e-28ff-05f8-4e92" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="4063-bd65-e680-46ac" name="Imperium - Inquisition" targetId="68fb-4b42-d3eb-451b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="1146-9543-c4b4-f832" name="Imperium - Officio Assassinorum" targetId="1af5-c5dc-455e-4db7" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

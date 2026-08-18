@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0fb8-6813-9c29-a03d" name="Imperium - Adeptus Custodes" revision="72" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66f5-09df-e08d-4de3" name="Imperium - Adeptus Custodes" revision="72" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0fb8-6813-pubN67796" name="Supplement: Angels of Death"/>
     <publication id="1a42-cfd6-c4b4-946a" name="Valerian and Aleya Box"/>
@@ -6606,8 +6606,8 @@ A unit with this ability that is within range of an objective marker (as specifi
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="d2c3-d5ee-7da3-a91b" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="0f58-dbe6-aed1-bfc1" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="0868-fa34-4f8b-ddbe" name="Imperium - Sisters of Silence" targetId="a008-1eeb-8c4e-96b7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d2c3-d5ee-7da3-a91b" name="Imperium - Inquisition" targetId="68fb-4b42-d3eb-451b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0f58-dbe6-aed1-bfc1" name="Imperium - Officio Assassinorum" targetId="1af5-c5dc-455e-4db7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0868-fa34-4f8b-ddbe" name="Imperium - Sisters of Silence" targetId="3a97-8db0-7195-4cb8" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

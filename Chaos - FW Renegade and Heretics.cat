@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ebb-7865-3983-640d" name="Chaos - Renegades &amp; Heretics [LEGENDS]" revision="57" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9845-5713-cc2f-4923" name="Chaos - Renegades &amp; Heretics [LEGENDS]" revision="57" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2ebb-7865-pubN72363" name="Codex: Astra Militarum"/>
   </publications>
@@ -4240,6 +4240,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="8660-17f5-6347-623d" name="Imperium - Astra Militarum - Library" targetId="a2d9-e3b7-13cc-6f15" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="8660-17f5-6347-623d" name="Imperium - Astra Militarum - Library" targetId="df6b-e134-dd57-4913" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
