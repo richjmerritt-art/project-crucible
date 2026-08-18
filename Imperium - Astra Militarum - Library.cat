@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="df6b-e134-dd57-4913" name="Imperium - Astra Militarum - Library" revision="5" battleScribeVersion="2.03" authorName="Rich Merritt" library="true" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="df6b-e134-dd57-4913" name="Imperium - Astra Militarum - Library" revision="6" battleScribeVersion="2.03" authorName="Rich Merritt" library="true" gameSystemId="4f31-8d8a-f9c7-433d" gameSystemRevision="179" type="catalogue">
   <publications>
     <publication id="53e9d88f--pubN88319" name="Codex: Astra Militarum"/>
     <publication id="53e9d88f--pubN183884" name="GW Datasheet"/>
@@ -16547,7 +16547,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="7"/>
+            <cost name="pts" typeId="points" value="0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
           </costs>
@@ -16604,7 +16604,7 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Kasrkin w/ Special Weapon" hidden="false" id="b828-ae4e-e113-d000" page="0" collective="false">
               <costs>
-                <cost name="pts" typeId="points" value="7"/>
+                <cost name="pts" typeId="points" value="0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
@@ -16674,7 +16674,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="70"/>
+        <cost name="pts" typeId="points" value="75"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
