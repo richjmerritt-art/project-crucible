@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a2d9-e3b7-13cc-6f15" name="Imperium - Astra Militarum - Library" revision="4" battleScribeVersion="2.03" authorName="Rich Merritt" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a2d9-e3b7-13cc-6f15" name="Imperium - Astra Militarum - Library" revision="5" battleScribeVersion="2.03" authorName="Rich Merritt" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" type="catalogue">
   <publications>
     <publication id="53e9d88f--pubN88319" name="Codex: Astra Militarum"/>
     <publication id="53e9d88f--pubN183884" name="GW Datasheet"/>
